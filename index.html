@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RV Technologies & CS</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f4f7fb;
+color:#333;
+}
+
+header{
+background:#0f172a;
+color:white;
+padding:20px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+.hero{
+background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+url('hero.jpg');
+background-size:cover;
+background-position:center;
+height:80vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero h1{
+font-size:50px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:20px;
+max-width:800px;
+}
+
+.section{
+padding:70px 8%;
+}
+
+.section-title{
+text-align:center;
+margin-bottom:40px;
+font-size:36px;
+color:#0f172a;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+border-radius:12px;
+overflow:hidden;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.card img{
+width:100%;
+height:250px;
+object-fit:cover;
+}
+
+.card-content{
+padding:20px;
+}
+
+.card h3{
+margin-bottom:10px;
+color:#0f172a;
+}
+
+.contact{
+background:#0f172a;
+color:white;
+text-align:center;
+}
+
+.contact p{
+margin:10px 0;
+font-size:18px;
+}
+
+footer{
+background:#020617;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+.whatsapp{
+position:fixed;
+right:20px;
+bottom:20px;
+background:#25D366;
+color:white;
+width:60px;
+height:60px;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:30px;
+text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">RV Technologies & CS</div>
+
+<nav>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>RV Technologies & CS</h1>
+<p>Web Development, Mobile Apps, Cloud, Automation, Digital Marketing & Technology Solutions</p>
+</section>
+
+<section class="section" id="services">
+<h2 class="section-title">Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<img src="web-applications.jpg">
+<div class="card-content">
+<h3>Web Applications</h3>
+<p>WordPress, Joomla, Java Development, PHP Applications, SharePoint Portal.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="web-design.jpg">
+<div class="card-content">
+<h3>Web Design</h3>
+<p>Responsive Websites, HTML5 Development, CMS Theme Design.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="mobile-app.jpg">
+<div class="card-content">
+<h3>Mobile Applications</h3>
+<p>Android Apps, iOS Apps, Tablet Apps, Mobile Solutions.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="ecommerce.jpg">
+<div class="card-content">
+<h3>E-Commerce</h3>
+<p>Magento, XCart, Zen Cart, Online Store Development.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="digital-marketing.jpg">
+<div class="card-content">
+<h3>Digital Marketing</h3>
+<p>SEO, SMM, Online Branding and Lead Generation.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="quality.jpg">
+<div class="card-content">
+<h3>Quality Assurance</h3>
+<p>Manual Testing, Performance Testing, Penetration Testing.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="cloud.jpg">
+<div class="card-content">
+<h3>Cloud Services</h3>
+<p>IaaS, PaaS, SaaS and Serverless Computing.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="agro.jpg">
+<div class="card-content">
+<h3>Agro Tech</h3>
+<p>Precision Farming, Drones, AI Monitoring & Automation.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="infra.jpg">
+<div class="card-content">
+<h3>Infra Tech</h3>
+<p>Technology Infrastructure Solutions & Support.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="future-tech.jpg">
+<div class="card-content">
+<h3>Future Tech</h3>
+<p>AI, Data Analytics, Automation and Emerging Technologies.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="automation.jpg">
+<div class="card-content">
+<h3>Automation</h3>
+<p>PLC, SCADA, DCS, Industrial Automation Solutions.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="ehs.jpg">
+<div class="card-content">
+<h3>EHS Services</h3>
+<p>Safety Audits, ISO Support, HAZOP, Risk Assessment & Training.</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<section class="section contact" id="contact">
+<h2 class="section-title" style="color:white;">Contact Us</h2>
+
+<p><b>Company:</b> RV Technologies & CS</p>
+<p><b>Email:</b> rvtechnologiesandcs@gmail.com</p>
+<p><b>Mobile:</b> 9723056725</p>
+<p><b>Mobile:</b> 9737916484</p>
+
+</section>
+
+<footer>
+© 2026 RV Technologies & CS. All Rights Reserved.
+</footer>
+
+<a class="whatsapp" href="https://wa.me/919723056725">💬</a>
+
+</body>
+</html>
